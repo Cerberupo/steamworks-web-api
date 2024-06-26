@@ -1,2 +1,2 @@
 # steamworks-web-api
-JS Library for use steamworks web pi
+JS Library for use Steamworks Web API
