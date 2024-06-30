@@ -1,9 +1,10 @@
 {
   "name": "steamworks-web-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JS Library for use Steamworks Web API",
   "main": "lib/index.js",
   "scripts": {
+    "publish": "npm publish --tag \"latest\""
   },
   "repository": {
     "type": "git",
