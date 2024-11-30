@@ -28,6 +28,7 @@ const steamworksWebApi = new SteamworksWebApi('<key> Steamworks Web API publishe
 
 await steamworksWebApi.IPlayerService.GetBadges('76561198069627324');
 await steamworksWebApi.IInventoryService.AddItem("3062640", [1], undefined, "76561198069627324", true)
+await steamworksWebApi.ISteamMicroTxnSandbox.GetUserInfo("3062640", "76561198069627324");
 ```
 
 ## Contributors
